@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>{{ title }}</title>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="SIBA - Una aplicación de HogarUrbano.com">
+    <meta name="keywords" content="administracion, edificio, mobile, app, construccion, comunidad, android, responsive, santiago, chile">
+
+    <!-- Font -->
+    <link rel="dns-prefetch" href="//fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    {% load staticfiles %}
+    <link rel="stylesheet" type="text/css" href="{% static 'appweb/css/bootstrap.min.css' %}" />
+    <!-- Themify Icons -->
+    <link rel="stylesheet" type="text/css" href="{% static 'appweb/css/themify-icons.css' %}" />
+    <!-- Owl carousel -->
+    <link rel="stylesheet" type="text/css" href="{% static 'appweb/css/owl.carousel.min.css' %}" />
+    <!-- Main css -->
+    <link rel="stylesheet" type="text/css" href="{% static 'appweb/css/style.css' %}" />
+
+    <script src="{% static 'appweb/js/modernizr-2.6.2.js' %}"></script>
+</head>
+
+<body data-spy="scroll" data-target="#navbar" data-offset="30">
+
+    <!-- Nav Menu -->
+    <div class="nav-menu fixed-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <nav class="navbar navbar-dark navbar-expand-lg">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a href="/" class="navbar-brand">SIBA </a>
+                        </div>
+                        <div class="navbar-collapse collapse" id="navbar">
+                            <ul class="nav navbar-nav ml-auto">
+                                <li class="nav-item"><a class="nav-link" href="{% url 'home' %}">Home</a></li>
+                                <li class="nav-item"><a class="nav-link" href="{% url 'about' %}">About</a></li>
+                                <li class="nav-item"><a class="nav-link" href="{% url 'contact' %}">Contact</a></li>
+                            </ul>
+                            {% include 'appweb/loginpartial.html' %}
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container body-content">
+{% block content %}{% endblock %}
+        <hr/>
+        <footer class="my-5 text-center">
+            <!-- Copyright removal is not prohibited! -->
+            <p class="mb-2"><small>COPYRIGHT © {{ year }}. ALL RIGHTS RESERVED. MOBAPP TEMPLATE BY <a href="https://colorlib.com">COLORLIB</a></small></p>
+
+            <small>
+                <a href="#" class="m-2">PRESS</a>
+                <a href="#" class="m-2">TERMS</a>
+                <a href="#" class="m-2">PRIVACY</a>
+            </small>
+        </footer>
+    </div>
+
+
+
+    <!-- jQuery and Bootstrap -->
+    <script src="{% static 'appweb/js/jquery-3.2.1.min.js' %}"></script>
+    <script src="{% static 'appweb/js/bootstrap.bundle.min.js' %}"></script>
+    <!-- Plugins JS -->
+    <script src="{% static 'appweb/js/owl.carousel.min.js' %}"></script>
+    <!-- Custom JS -->
+    <script src="{% static 'appweb/js/script.js' %}"></script>
+{% block scripts %}{% endblock %}
+
+</body>
+</html>
