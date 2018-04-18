@@ -29,8 +29,13 @@ DEBUG = True
 ALLOWED_HOSTS = []
 
 # Application definition
-
 INSTALLED_APPS = [
+    'django_extensions',
+    'appweb',
+    'accounting',
+    'hr',
+    'blog',
+    'articles',
     'jet.dashboard',
     'jet',
     'django.contrib.admin',
@@ -39,8 +44,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'apps.appweb.apps.SibaConfig',
-    'apps.accounting',
+    'corsheaders',
     'rest_framework',
 ]
 
@@ -52,14 +56,44 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'corsheaders.middleware.CorsMiddleware',
+    'django.middleware.common.CommonMiddleware',
 ]
+
+GRAPH_MODELS = {
+  'all_applications': True,
+  'group_models': True,
+}
+
+CORS_ORIGIN_ALLOW_ALL = True
+CORS_URLS_REGEX = r'^/api/.*$'
+CORS_ALLOW_METHODS = (
+    'DELETE',
+    'GET',
+    'OPTIONS',
+    'PATCH',
+    'POST',
+    'PUT',
+)
+
+CORS_ALLOW_HEADERS = (
+    'accept',
+    'accept-encoding',
+    'authorization',
+    'content-type',
+    'dnt',
+    'origin',
+    'user-agent',
+    'x-csrftoken',
+    'x-requested-with',
+)
 
 ROOT_URLCONF = 'siba.urls'
 
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'templates')],
+        'DIRS': [os.path.join(BASE_DIR, 'templates')],  # Tamplates for Site - AH
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -112,7 +146,6 @@ AUTH_PROFILE_MODULE = "apps.appweb.UserProfile"
 
 # JET Admin panel configuration
 JET_DEFAULT_THEME = 'light-gray'
-
 JET_THEMES = [ {
         'theme': 'default', # theme folder name
         'color': '#47bac1', # color of the theme's button in user menu
@@ -144,10 +177,9 @@ JET_THEMES = [ {
         'title': 'Light Gray'
     }
 ]
-
 JET_SIDE_MENU_COMPACT = True
-JET_INDEX_DASHBOARD = 'jet.dashboard.dashboard.DefaultIndexDashboard'
-JET_APP_INDEX_DASHBOARD = 'jet.dashboard.dashboard.DefaultAppIndexDashboard'
+# JET_INDEX_DASHBOARD = 'jet.dashboard.dashboard.DefaultIndexDashboard'
+# JET_APP_INDEX_DASHBOARD = 'jet.dashboard.dashboard.DefaultAppIndexDashboard'
 # JET_INDEX_DASHBOARD = 'dashboard.CustomIndexDashboard'
 
 

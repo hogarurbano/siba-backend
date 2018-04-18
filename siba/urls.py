@@ -18,23 +18,25 @@ from django.urls import include, path
 from django.contrib.auth import views
 from datetime import datetime
 
-import apps.appweb.views
-import apps.appweb.forms
+import appweb.views
+import appweb.forms
 
 urlpatterns = [
-    path('', apps.appweb.views.home, name='home'), # importing HomePage to AppWeb
-    path('contact', apps.appweb.views.contact, name='contact' ),
-     path('about', apps.appweb.views.about, name='about' ),
+    path('', appweb.views.home, name='home'), # importing HomePage to AppWeb
+    path('contact', appweb.views.contact, name='contact'),
+    path('about', appweb.views.about, name='about'),
 
     path('jet/', include('jet.urls', 'jet')),
     path('jet/dashboard/', include('jet.dashboard.urls', 'jet-dashboard')),
     path('admin/', admin.site.urls),
+    path('api/', include('api.urls')),
+    path('articles/', include('articles.urls')),
 
     path('login/',
         views.login,
         {
             'template_name': 'appweb/login.html',
-            'authentication_form': apps.appweb.forms.BootstrapAuthenticationForm,
+            'authentication_form': appweb.forms.BootstrapAuthenticationForm,
             'extra_context':
             {
                 'year': datetime.now().year,
