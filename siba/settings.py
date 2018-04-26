@@ -33,9 +33,8 @@ INSTALLED_APPS = [
     'django_extensions',
     'appweb',
     'accounting',
-    'hr',
-    'blog',
     'articles',
+    'hr',
     'jet.dashboard',
     'jet',
     'django.contrib.admin',
@@ -142,7 +141,7 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-AUTH_PROFILE_MODULE = "apps.appweb.UserProfile"
+AUTH_PROFILE_MODULE = "appweb.UserProfile"
 
 # JET Admin panel configuration
 JET_DEFAULT_THEME = 'light-gray'
@@ -186,7 +185,7 @@ JET_SIDE_MENU_COMPACT = True
 # Internationalization
 # https://docs.djangoproject.com/en/2.0/topics/i18n/
 
-LANGUAGE_CODE = 'es-cl'
+LANGUAGE_CODE = 'es-ES'
 
 TIME_ZONE = 'UTC'
 
@@ -199,5 +198,4 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
-
 STATIC_URL = '/static/'
