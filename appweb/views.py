@@ -5,7 +5,6 @@ from django.template import RequestContext
 from django.utils.translation import ugettext_lazy as _
 from datetime import datetime
 
-
 def home(request):
     """Renders the home page."""
     assert isinstance(request, HttpRequest)

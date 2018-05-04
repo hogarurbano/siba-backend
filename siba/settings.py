@@ -12,6 +12,23 @@ https://docs.djangoproject.com/en/2.0/ref/settings/
 
 import os
 from django.utils.translation import ugettext_lazy as _
+import pyrebase
+
+config = {
+    'apiKey': "AIzaSyB-jplSVS4AqOsq1cELV4utEaNiFn2Eazc",
+    'authDomain': "hogarurbano-4e3a7.firebaseapp.com",
+    'databaseURL': "https://hogarurbano-4e3a7.firebaseio.com",
+    'projectId': "hogarurbano-4e3a7",
+    'storageBucket': "hogarurbano-4e3a7.appspot.com",
+    'messagingSenderId': "81503278779"
+}
+
+firebase = pyrebase.initialize_app(config)
+
+auth = firebase.auth()
+db = firebase.database()
+storage = firebase.storage()
+
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))

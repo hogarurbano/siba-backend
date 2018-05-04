@@ -1,12 +1,28 @@
 {
-    "python.pythonPath": "${workspaceFolder}\\dev2\\Scripts\\python.exe",
-    "terminal.integrated.env.osx": {
-        "SFDX_SET_CLIENT_IDS": "sfdx-vscode"
+    "editor.formatOnSave": true,
+    "editor.rulers": [
+        80,
+        120
+    ],
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/.idea": true,
+        "**/*.pyc": true,
     },
-    "terminal.integrated.env.linux": {
-        "SFDX_SET_CLIENT_IDS": "sfdx-vscode"
+    "python.pythonPath": "C:\\center\\backend\\uh\\dev1\\Scripts",
+    "python.linting.pep8Enabled": true,
+    "python.linting.pep8Path": "C:\\center\\backend\\uh\\dev1\\Scripts",
+    "python.linting.pylintPath": "C:\\center\\backend\\uh\\dev1\\Scripts",
+    "python.linting.pylintArgs": [
+        "--load-plugins",
+        "pylint_django"
+    ],
+    "python.linting.pylintEnabled": true,
+    "[python]": {
+        "editor.formatOnSave": true
     },
-    "terminal.integrated.env.windows": {
-        "SFDX_SET_CLIENT_IDS": "sfdx-vscode"
-    }
 }
