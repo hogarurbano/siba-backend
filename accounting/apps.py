@@ -1,7 +1,7 @@
-from django.apps import AppConfig
 from django.utils.translation import gettext_lazy as _
+from django.apps import AppConfig
 
 
-class SibaAccountingConfig(AppConfig):
+class SIBAAccountingConfig(AppConfig):
     name = 'accounting'
-    verbose_name = _("Accounting")
+    verbose_name = _("SIBA Accounting")

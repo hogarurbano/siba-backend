@@ -1,7 +1,7 @@
 from django.db import models
 from django.utils import timezone
 from django.contrib.auth.models import User
-from appweb.models import company
+from siba.models import company
 from django.contrib import admin
 from django.utils.translation import ugettext_lazy as _
 

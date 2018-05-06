@@ -13,6 +13,7 @@
 		},
 		"terminal.integrated.env.windows": {
 			"SFDX_SET_CLIENT_IDS": "sfdx-vscode"
-		}
+		},
+		"python.pythonPath": "C:\\Python36\\python.exe"
 	}
 }

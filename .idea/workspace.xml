@@ -2,11 +2,66 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1aaa74ea-e3b1-4a65-a548-aa7f63f85eda" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/cpanel/signIn.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uh.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uh.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/launch.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appweb/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/appweb/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/siba/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/siba/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounting/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounting/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounting/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounting/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounting/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appweb/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appweb/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appweb/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appweb/dashboard.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appweb/forms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appweb/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appweb/migrations/0002_auto_20180417_1631.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appweb/migrations/0003_auto_20180417_2307.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appweb/migrations/0004_auto_20180417_2313.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appweb/migrations/0005_auto_20180417_2320.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appweb/migrations/0006_auto_20180417_2323.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appweb/migrations/0007_auto_20180418_0027.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appweb/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appweb/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appweb/static/appweb/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appweb/static/appweb/css/owl.carousel.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appweb/static/appweb/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appweb/static/appweb/css/themify-icons.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appweb/static/appweb/fonts/themify.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appweb/static/appweb/fonts/themify.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appweb/static/appweb/fonts/themify.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appweb/static/appweb/fonts/themify.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appweb/static/appweb/images/appleicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appweb/static/appweb/images/client-logos.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appweb/static/appweb/images/client.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appweb/static/appweb/images/dualphone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appweb/static/appweb/images/graphic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appweb/static/appweb/images/iphonex.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appweb/static/appweb/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appweb/static/appweb/images/perspective.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appweb/static/appweb/images/playicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appweb/static/appweb/images/screen1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appweb/static/appweb/images/screen2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appweb/static/appweb/images/screen3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appweb/static/appweb/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appweb/static/appweb/js/jquery-3.2.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appweb/static/appweb/js/owl.carousel.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appweb/static/appweb/js/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appweb/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appweb/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/siba/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/siba/templates/appweb/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/siba/templates/appweb/contact.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/siba/templates/appweb/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/siba/templates/appweb/layout.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/siba/templates/appweb/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/siba/templates/appweb/loginpartial.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/siba/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/siba/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uh_siba.code-workspace" beforeDir="false" afterPath="$PROJECT_DIR$/uh_siba.code-workspace" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -39,34 +94,78 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/views.py">
+      <file leaf-file-name="admin.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/siba/admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/siba/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="132" column="19" lean-forward="true" selection-start-line="132" selection-start-column="19" selection-end-line="132" selection-end-column="19" />
+            <state relative-caret-position="230">
+              <caret line="121" column="28" lean-forward="true" selection-start-line="121" selection-start-column="28" selection-end-line="121" selection-end-column="28" />
               <folding>
-                <element signature="e#303#312#0" expanded="true" />
+                <element signature="e#0#32#0" expanded="true" />
+                <element signature="e#244#1387#0" />
+                <element signature="e#1471#2203#0" />
+                <element signature="e#2315#2710#0" />
+                <element signature="e#2892#3783#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="serializers.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/serializers.py">
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/siba/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="-19">
               <folding>
-                <element signature="e#0#50#0" expanded="true" />
+                <element signature="e#0#33#0" expanded="true" />
+                <element signature="e#280#2875#0" />
+                <element signature="e#2915#3775#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/polls/admin.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="28" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/polls/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+              <folding>
+                <element signature="e#0#67#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/siba/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="e#0#53#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="forms.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/siba/forms.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="321">
+              <caret line="62" column="25" selection-start-line="62" selection-start-column="25" selection-end-line="62" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#24#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -103,17 +202,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/siba_accounting/models.py" />
-        <option value="$PROJECT_DIR$/siba/accounting/admin.py" />
-        <option value="$PROJECT_DIR$/siba/accounting/models.py" />
-        <option value="$PROJECT_DIR$/uh/settings.py" />
-        <option value="$PROJECT_DIR$/siba/apps.py" />
-        <option value="$PROJECT_DIR$/manage.py" />
-        <option value="$PROJECT_DIR$/siba/wsgi.py" />
-        <option value="$PROJECT_DIR$/siba/templates/appweb/layout.html" />
-        <option value="$PROJECT_DIR$/apps/appweb/migrations/0003_auto_20180404_1453.py" />
-        <option value="$PROJECT_DIR$/apps/appweb/templates/appweb/index.html" />
-        <option value="$PROJECT_DIR$/apps/appweb/templates/appweb/contact.html" />
         <option value="$PROJECT_DIR$/apps/appweb/templates/appweb/about.html" />
         <option value="$PROJECT_DIR$/apps/appweb/templates/appweb/login.html" />
         <option value="$PROJECT_DIR$/apps/appweb/templates/mobapp-master/index.html" />
@@ -135,18 +223,15 @@
         <option value="$PROJECT_DIR$/apps/appweb/models.py" />
         <option value="$PROJECT_DIR$/apps/appweb/views.py" />
         <option value="$PROJECT_DIR$/appweb/apps.py" />
-        <option value="$PROJECT_DIR$/accounting/models.py" />
         <option value="$PROJECT_DIR$/accounting/admin.py" />
         <option value="$PROJECT_DIR$/accounting/forms.py" />
         <option value="$PROJECT_DIR$/appweb/forms.py" />
         <option value="$PROJECT_DIR$/appweb/admin.py" />
         <option value="$PROJECT_DIR$/api/urls.py" />
-        <option value="$PROJECT_DIR$/api/views.py" />
         <option value="$PROJECT_DIR$/templates/homepage.html" />
         <option value="$PROJECT_DIR$/articles/views.py" />
         <option value="$PROJECT_DIR$/articles/urls.py" />
         <option value="$PROJECT_DIR$/articles/templates/articles/article_list.html" />
-        <option value="$PROJECT_DIR$/accounting/apps.py" />
         <option value="$PROJECT_DIR$/accounting/migrations/0001_initial.py" />
         <option value="$PROJECT_DIR$/articles/models.py" />
         <option value="$PROJECT_DIR$/cpanel/views.py" />
@@ -154,6 +239,20 @@
         <option value="$PROJECT_DIR$/siba/settings.py" />
         <option value="$PROJECT_DIR$/siba/urls.py" />
         <option value="$PROJECT_DIR$/appweb/views.py" />
+        <option value="$PROJECT_DIR$/api/views.py" />
+        <option value="$PROJECT_DIR$/siba/apps.py" />
+        <option value="$PROJECT_DIR$/manage.py" />
+        <option value="$PROJECT_DIR$/accounting/apps.py" />
+        <option value="$PROJECT_DIR$/config/settings.py" />
+        <option value="$PROJECT_DIR$/accounting/models.py" />
+        <option value="$PROJECT_DIR$/config/urls.py" />
+        <option value="$PROJECT_DIR$/siba/templates/siba/login.html" />
+        <option value="$PROJECT_DIR$/siba/templates/siba/layout.html" />
+        <option value="$PROJECT_DIR$/siba/templates/siba/index.html" />
+        <option value="$PROJECT_DIR$/templates/admin/layout.html" />
+        <option value="$PROJECT_DIR$/siba/views.py" />
+        <option value="$PROJECT_DIR$/siba/admin.py" />
+        <option value="$PROJECT_DIR$/siba/migrations/0001_initial.py" />
       </list>
     </option>
   </component>
@@ -185,7 +284,7 @@
             <path>
               <item name="uh" type="b2602c69:ProjectViewProjectNode" />
               <item name="uh" type="462c0819:PsiDirectoryNode" />
-              <item name="accounting" type="462c0819:PsiDirectoryNode" />
+              <item name="polls" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="uh" type="b2602c69:ProjectViewProjectNode" />
@@ -203,18 +302,18 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../env/dev1/Scripts/python.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../venv/dev2/Scripts/django-admin.py" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\center\backend\uh\templates\admin" />
+      <recent name="C:\center\backend\uh\siba\templates" />
       <recent name="C:\center\backend\uh" />
       <recent name="C:\center\backend\uh\appweb" />
       <recent name="C:\center\backend\uh\apps" />
-      <recent name="C:\uh\apps\api" />
-      <recent name="C:\uh\apps\appweb" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -230,28 +329,23 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="uh" type="Python.DjangoServer" factoryName="Django server">
+    <configuration name="uh" type="PythonConfigurationType" factoryName="Python">
       <module name="uh" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
-        <env name="DJANGO_SETTINGS_MODULE" value="uh.settings" />
       </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
+      <option name="SDK_HOME" value="C:\center\backend\venv\dev2\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../venv/dev2/Scripts" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="launchJavascriptDebuger" value="false" />
-      <option name="port" value="8000" />
-      <option name="host" value="" />
-      <option name="additionalOptions" value="" />
-      <option name="browserUrl" value="" />
-      <option name="runTestServer" value="false" />
-      <option name="runNoReload" value="false" />
-      <option name="useCustomRunCommand" value="false" />
-      <option name="customRunCommand" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../venv/dev2/Scripts/django-admin.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
   </component>
   <component name="SvnConfiguration">
@@ -277,29 +371,28 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18814056" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.50053304" side_tool="true" weight="0.26143792" />
-      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.5014641" side_tool="true" weight="0.39586645" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.3290938" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.34749454" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49946696" visible="true" weight="0.3960396" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18532526" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.17776097" />
-      <window_info anchor="right" id="SciView" order="3" weight="0.32980332" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49853587" visible="true" weight="0.39586645" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39869282" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Database Console" order="12" weight="0.3290938" />
+      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.17776097" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.32980332" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.49669966" />
     </layout>
   </component>
@@ -319,144 +412,13 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/api/apps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/serializers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="11" column="52" lean-forward="true" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/appweb/migrations/0003_auto_20180404_1453.py" />
-    <entry file="file://$PROJECT_DIR$/templates/mobapp-master/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/appweb/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" selection-start-column="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/appweb/contact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" selection-start-column="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appweb/static/appweb/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7650" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/mobapp-master/index2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="79" column="18" lean-forward="true" selection-start-line="79" selection-start-column="18" selection-end-line="79" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/appweb/loginpartial.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://1b71e06c-dfcc-4881-938f-8cec4f9733cc/schema/dbdvchl03/table/appweb_account">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://1b71e06c-dfcc-4881-938f-8cec4f9733cc/schema/dbdvchl03/table/appweb_account/index/appweb_account__lastmodifiedby_id">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev2/Lib/site-packages/django/conf/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/dev2/Scripts/activate" />
-    <entry file="file://$PROJECT_DIR$/dev1/Scripts/activate" />
-    <entry file="file://$PROJECT_DIR$/mysite/mysite/settings.py" />
-    <entry file="file://$PROJECT_DIR$/manage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/manage.py" />
     <entry file="file://$PROJECT_DIR$/dev2/Lib/site-packages/django/apps/config.py" />
     <entry file="file://$PROJECT_DIR$/dev2/Lib/tcl8.6/init.tcl" />
     <entry file="file://$PROJECT_DIR$/dev2/Lib/site-packages/django/conf/locale/es/LC_MESSAGES/django.po" />
     <entry file="file://$PROJECT_DIR$/dev2/Lib/site-packages/django/bin/django-admin.py" />
-    <entry file="file://$PROJECT_DIR$/appweb/migrations/0001_initial.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appweb/dashboard.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://DjangoModelDependency/#uh">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>DjangoModelDependency</ID>
-          <OriginalElement>#uh</OriginalElement>
-          <nodes>
-            <node x="" y="">appweb.models.account_type</node>
-            <node x="" y="">appweb.models.address</node>
-            <node x="" y="">appweb.models.UserProfile</node>
-            <node x="" y="">appweb.models.unit</node>
-            <node x="" y="">django.contrib.contenttypes.models.ContentType</node>
-            <node x="" y="">appweb.models.country</node>
-            <node x="" y="">django.contrib.auth.models.Group</node>
-            <node x="" y="">appweb.models.city</node>
-            <node x="" y="">appweb.models.account</node>
-            <node x="" y="">django.contrib.auth.models.Permission</node>
-            <node x="" y="">appweb.models.contact</node>
-            <node x="" y="">appweb.models.company</node>
-            <node x="" y="">django.contrib.auth.models.User</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="397.0" y="262.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/appweb/migrations/0001_initial.py" />
+    <entry file="file://$PROJECT_DIR$/appweb/dashboard.py" />
+    <entry file="uml://DjangoModelDependency/#uh" />
     <entry file="file://$PROJECT_DIR$/api/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -464,13 +426,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/appweb/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/appweb/admin.py" />
     <entry file="file://$PROJECT_DIR$/accounting/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -478,13 +434,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/appweb/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/siba/templates/appweb/index.html" />
     <entry file="file://$PROJECT_DIR$/templates/homepage.html" />
     <entry file="file://$PROJECT_DIR$/articles/views.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -493,63 +443,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/articles/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/accounting/migrations/0001_initial.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="53" column="111" selection-start-line="53" selection-start-column="111" selection-end-line="53" selection-end-column="111" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/accounting/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-162">
-          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appweb/apps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" selection-start-column="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/accounting/apps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appweb/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1615">
-          <caret line="64" column="30" lean-forward="true" selection-start-line="64" selection-start-column="30" selection-end-line="64" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/accounting/migrations/0001_initial.py" />
+    <entry file="file://$PROJECT_DIR$/appweb/apps.py" />
+    <entry file="file://$PROJECT_DIR$/appweb/models.py" />
     <entry file="file://$PROJECT_DIR$/cpanel/views.py" />
-    <entry file="file://$PROJECT_DIR$/templates/appweb/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appweb/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="43" lean-forward="true" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/siba/templates/appweb/login.html" />
+    <entry file="file://$PROJECT_DIR$/appweb/views.py" />
     <entry file="file://$PROJECT_DIR$/articles/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -571,20 +470,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/appweb/layout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/siba/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="26" column="52" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/siba/templates/appweb/layout.html" />
+    <entry file="file://$PROJECT_DIR$/siba/urls.py" />
     <entry file="file://$PROJECT_DIR$/articles/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -594,18 +481,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/api/serializers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
+        <state relative-caret-position="204">
           <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/apps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -613,26 +490,191 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
-          <folding>
-            <element signature="e#133#763#0" />
-            <element signature="e#803#1306#0" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/api/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+        <state>
+          <caret column="16" lean-forward="true" selection-start-column="16" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/siba/settings.py">
+    <entry file="file://$PROJECT_DIR$/siba/settings.py" />
+    <entry file="file://$PROJECT_DIR$/manage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="132" column="19" lean-forward="true" selection-start-line="132" selection-start-column="19" selection-end-line="132" selection-end-column="19" />
+        <state relative-caret-position="82">
+          <caret line="5" column="59" selection-start-line="5" selection-start-column="59" selection-end-line="5" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-178">
+          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accounting/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="175" selection-start-line="175" selection-end-line="175" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accounting/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/articles/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/siba/templates/siba/loginpartial.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/siba/templates/siba/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin/layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="86" lean-forward="true" selection-start-line="86" selection-end-line="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/siba/templates/siba/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/siba/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
           <folding>
-            <element signature="e#303#312#0" expanded="true" />
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/polls/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/polls/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/siba/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#0#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/polls/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#67#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/siba/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="62" column="25" selection-start-line="62" selection-start-column="25" selection-end-line="62" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/polls/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/siba/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-19">
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+            <element signature="e#280#2875#0" />
+            <element signature="e#2915#3775#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/siba/migrations/0001_initial.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1430">
+          <folding>
+            <element signature="e#49#81#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/siba/migrations/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/siba/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="121" column="28" lean-forward="true" selection-start-line="121" selection-start-column="28" selection-end-line="121" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+            <element signature="e#244#1387#0" />
+            <element signature="e#1471#2203#0" />
+            <element signature="e#2315#2710#0" />
+            <element signature="e#2892#3783#0" />
           </folding>
         </state>
       </provider>
