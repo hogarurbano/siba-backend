@@ -11,5 +11,14 @@
       <user-name>udbdvchl03</user-name>
       <introspection-schemas>*:dbdvchl03</introspection-schemas>
     </data-source>
+    <data-source name="dbdvprg01@localhost" uuid="2b839334-a7a3-41b0-afba-e8de7c5f2cef">
+      <database-info product="PostgreSQL" version="10.4" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.2.2">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>udbdvprg01</user-name>
+      <introspection-schemas>dbdvprg01:public</introspection-schemas>
+    </data-source>
   </component>
 </project>

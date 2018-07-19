@@ -15,5 +15,12 @@
         <property name="yearIsDateType" value="false" />
       </driver-properties>
     </data-source>
+    <data-source source="LOCAL" name="dbdvprg01@localhost" uuid="2b839334-a7a3-41b0-afba-e8de7c5f2cef">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <remarks>DataBase on Progress for SIBA App</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/dbdvprg01</jdbc-url>
+    </data-source>
   </component>
 </project>
